@@ -1,0 +1,1340 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: titulo;
+    src: url(tipografias/impact-font/impact.ttf);
+}
+@font-face {
+    font-family: texto;
+    src: url(tipografias/futura-pt-light-maisfontes.a129/futura-pt-light.otf);
+}
+button{
+    font-family: texto;
+}
+body::-webkit-scrollbar{
+   width: 15px;
+}
+body::-webkit-scrollbar-thumb{
+   background: chocolate;
+}
+
+
+
+.contenedor{
+    width: 100%;
+    max-width: 3000px;
+    height: auto;
+    position: absolute;
+    background: rgb(22, 155, 216);
+   
+   
+}
+
+.contenedor header{
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+.contenedor header .logo a img {
+    font-size: 20px;
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+    
+    
+}
+
+#cuerpo{
+    width: 100%;
+    height: 300px;
+    background: white;
+float: left;
+    box-sizing: content-box;
+    }
+    
+    .MANUAL{
+        width: 100%;
+        height: 900px;
+        float:left;
+        font-size: 40pt;
+        text-align: center;
+        background-image:url(imageneseditadas/JPEG/2.jpg);
+
+
+        
+    }
+
+    
+    .MANUAL h4{
+        font-family: titulo;
+        font-size: 60pt;
+        width: 60%;
+        float: left;
+       color: black;
+        height: 1080px;
+        padding: 20px;
+        align-content: center;
+
+
+    }
+    .MANUAL #textomanual h1{
+        font-family: titulo;
+        color: black;
+        font-size: 70pt;
+        padding: 70px;
+        text-align: center;
+
+        
+    }
+    
+    .MANUAL nav ul  button{
+        text-align: none;
+        color: black;
+        margin: 0 15px;
+        padding: 20px;
+        background-color: chocolate;   
+        float: left; 
+        border: solid black;
+        border-radius: 20px;
+        font-size: 20pt;
+    }
+    .MANUAL nav ul li button:hover{
+        color: white;
+        background-color:black;
+        border: solid blue;
+
+    }
+    .enlace1{
+        background-color: gray;
+        color: white;
+        font-size: 30pt;
+        text-align: center;
+        float: none;
+        padding: 20px;
+        border-radius: 30px;
+        font-family: titulo;
+        
+    
+    
+    }
+    #encabezadodiseños{
+        width: 100%;
+        height: 300px;
+        float: left;
+        color: white;
+        align-content: center;
+        background-color: gray;
+    }
+    #encabezadodiseños h1{
+        font-size: 80pt;
+        float: right;
+        align-items: center;
+        padding: 50px;
+        font-family: titulo;
+        background-color: rgb(30,31,29);
+        width: 140%;
+        height: 300px;
+
+    }
+    #encabezadodiseños i{
+        float: right;
+        padding: 5px;
+
+    }
+    #encabezadodiseños .logo2 a img{
+       font-size: 20pt;
+       border-radius: 20px;
+       width:80px;
+       height: 80px;
+    }
+    #encabezadodiseños nav ul a{
+      font-size: 20pt;
+      font-family: texto;
+      width: 150px;
+      height: 50px;
+      padding: 15px;
+      color: black;
+      text-align: center;
+      background-color: chocolate;
+      border-radius: 20px;
+      font-size: 10pt;
+        float: left;
+    }
+    #encabezadodiseños #contenedortexto{
+        width: 50%;
+        height: 400px;
+        color: white;
+    align-content: center;
+    background-color: gray;
+    float: right;
+
+    }
+    .nuestrosdiseños1{
+height: 1080px;
+ overflow: hidden;
+ width: 100%;
+ box-sizing: border-box;
+
+    }
+   
+ .HISTORIA{
+    width: 30%;
+    background-color: rgb(30,31,29);
+    color: black;
+    float: left;
+   height: 600px;
+  float: left;
+
+    
+ }
+ 
+ .HISTORIA .logo1 a img{
+    font-size: 30px;
+        float: left;
+        border-radius:30px;
+        width: 80px;
+        height: 80px;
+ }
+ .HISTORIA  h1{
+   font-family: titulo;
+   font-size: 50pt;
+   color: white;
+   padding: 100px;
+   float: left;
+
+       
+       
+}
+ .HISTORIATEXTO #contenedortexto p {
+    font-family: texto;
+    text-align: center;
+    color: darkorange;
+font-size: 35pt;
+float: right;
+text-align: left;
+padding: 20px;
+
+ }
+ .HISTORIATEXTO #contenedortexto{
+    width: 70%;
+    height: 600px;
+    background-image: url(imageneseditadas/JPEG/3.jpg);
+    color: rgb(30,31,29);
+float: right;
+text-align: left;
+
+
+}
+ .HISTORIATEXTO a{
+   font-size: 20pt;
+   font-family: texto;
+   width: 150px;
+   height: 50px;
+   padding: 15px;
+   color: black;
+   text-align: center;
+   background-color: chocolate;
+   border-radius: 20px;
+   font-size: 10pt;
+ }
+ .QUEHACEMOS{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    font-size: 60pt;
+    float: left;
+    height: 1080px;;
+   align-content: center;
+   
+
+    
+ }
+ .QUEHACEMOSlogo{
+    width: 50%;
+    height: 500px;
+    background-color: rgb(44, 47, 123);
+    float: left;
+ }
+ .QUEHACEMOSlogo .logo1 a img{
+    font-size: 30px;
+        float: left;
+        border-radius:30px;
+        width: 80px;
+        height: 80px;
+        border: solid 2px black;
+ }
+ .QUEHACEMOSlogo .logo1 #herramienta{
+    padding: 120px;
+    font-size: 150pt;
+    color: white;
+ }
+ 
+ .QUEHACEMOS #encabezadoquehacemos h2{
+    width: 50%;
+    height: 500px;
+    color: rgb(30,31,29);
+    background-image: url(imageneseditadas/JPEG/1.jpg);
+align-content: center;
+font-family: titulo;
+font-size: 60pt;
+float: right;
+padding: 200px;
+
+
+}
+   .QUEHACEMOS #textoquehacemos p {
+    text-align: center;
+    font-family: texto;
+    font-size: 35pt;
+    width: 100%;
+    background-color:rgb(30,31,29);
+    height: 400px;
+    float: right;
+    color: white;
+
+ }
+ .QUEHACEMOS #textoquehacemos  a{
+   font-size: 20pt;
+   font-family: texto;
+   width: 100px;
+   height: 80px;
+   padding: 15px;
+   color: black;
+   text-align: center;
+   background-color: chocolate;
+   border-radius: 20px;
+   font-size: 10pt;
+}
+ .PORQUE{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    color: white;
+    font-size: 60pt;
+    float: left;
+    height: 1080px;
+   
+
+    
+ }
+ .PORQUElogo{
+    width: 60%;
+    height: 500px;
+    float: left;
+    background-image: url(imageneseditadas/JPEG/4.jpg);
+
+
+ }
+ .PORQUE #encabezadoporque h3 {
+    font-family: titulo;
+    font-size: 60pt;
+    padding: 20px;
+    height: 1080px;
+    width: 40%;
+    background-color: rgb(44, 47, 123);
+    float: right;
+    color: white;
+    padding: 200px;
+ }
+ .PORQUE #encabezadoporque h3 i{
+    color: white;
+    float: left;
+    
+    font-size: 200pt;
+    align-content: center;
+
+ }
+ .PORQUE .logo1 a img{
+    font-size: 30px;
+        float: left;
+        border-radius:30px;
+        width: 80px;
+        height: 80px;
+ }
+ .PORQUE .logo1 i{
+    color: white;
+    padding: 100px;
+    font-size: 200pt;
+    text-align: center;
+ }
+ .PORQUE #PORQUETEXTO{
+    width: 60%;
+    height: 580px;
+    color: white;
+align-content: center;
+background-color: rgb(30,31,29);
+float: left;
+
+font-size: 30pt;
+
+
+}
+
+ .PORQUE #PORQUETEXTO a{
+    width: 150px;
+    height: 50px;
+    padding: 15px;
+    color: black;
+    text-align: center;
+    background-color: chocolate;
+    border-radius: 20px;
+    font-size: 10pt;
+ }
+ .SOBREMI{
+    float: left;
+text-align: center;
+height: 1080px;
+padding: 20px;
+background-image: url(imageneseditadas/JPEG/5.jpg);
+
+ }
+ .avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 10px;
+    align-content: center;
+ }
+ .usuario{
+    font-size: 20pt;
+    margin-top: 15px;
+    font-family: titulo;
+    color: navy;
+ }
+ .social{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+
+ }
+ .social li{
+    display: inline-block;
+    margin: 5px;
+ }
+ .texto{
+    display: inline-block;
+    text-align: center;
+    font-size: 40pt;
+ }
+ .texto h3{
+    font-family: titulo;
+    font-size: 30pt;
+ }
+ .texto p{
+    font-family: texto;
+ }
+ .SOBREMI .texto a{
+    font-size: 20pt;
+    font-family: texto;
+    width: 150px;
+    height: 50px;
+    padding: 15px;
+    color: black;
+    text-align: center;
+    background-color: chocolate;
+    border-radius: 20px;
+    font-size: 10pt;
+ }
+ #barrasdeprogreso{
+   width: 100%;
+   height: 800px;
+   font-family: texto;
+   font-size: 20pt;
+   background-color: white;
+   float: left;
+   text-align: center;
+   padding: 20px;
+ }
+ .final{
+    float: left;
+    background-color: black;
+    width: 100%;
+    height: 700px;
+    color: white;
+    padding: 20px;
+    font-size: 40pt;
+    text-align: center;
+ }
+ 
+ 
+ @media(min-width:768px) and (max-width:990px){
+   .contenedor{
+      width: 100%;
+      height: auto;
+      position: absolute;
+      background: rgb(22, 155, 216);
+     
+     
+  }
+  
+  .contenedor header{
+      max-width: 100%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+  }
+  .contenedor header .logo a img {
+      font-size: 20px;
+      border-radius: 20px;
+      width: 80px;
+      height: 80px;
+      
+      
+  }
+  
+  #cuerpo{
+      width: 100%;
+      height: 300px;
+      background: white;
+  float: left;
+      box-sizing: content-box;
+      }
+      
+      .MANUAL{
+          width: 100%;
+          height: auto;
+          float:left;
+          font-size: 10pt;
+          text-align: center;
+          background-image:url(imageneseditadas/JPEG/2.jpg);
+  
+  
+          
+      }
+  
+      
+      .MANUAL h4{
+          font-family: titulo;
+          font-size: 20pt;
+          width: 60%;
+          float: left;
+         color: black;
+          height: auto;
+          padding: 20px;
+          align-content: center;
+  
+  
+      }
+      .MANUAL #textomanual h1{
+          font-family: titulo;
+          color: black;
+          font-size: 15pt;
+          padding: 20px;
+          text-align: center;
+  
+          
+      }
+      
+      .MANUAL nav ul  button{
+          text-align: none;
+          color: black;
+          margin: 0 15px;
+          padding: 20px;
+          background-color: chocolate;   
+          float: left; 
+          border: solid black;
+          border-radius: 20px;
+          font-size: 20pt;
+      }
+      .MANUAL nav ul li button:hover{
+          color: white;
+          background-color:black;
+          border: solid blue;
+  
+      }
+      .enlace1{
+          background-color: gray;
+          color: white;
+          font-size: 10pt;
+          text-align: center;
+          float: none;
+          padding: 20px;
+          border-radius: 30px;
+          font-family: titulo;
+          
+      
+      
+      }
+      #encabezadodiseños{
+          width: 100%;
+          height: 300px;
+          float: left;
+          color: white;
+          align-content: center;
+          background-color: gray;
+      }
+      #encabezadodiseños h1{
+          font-size: 15pt;
+          float: right;
+          align-items: center;
+          padding: 20px;
+          font-family: titulo;
+          background-color: rgb(30,31,29);
+          width: 120%;
+          height: 300px;
+  
+      }
+      #encabezadodiseños i{
+          float: right;
+          padding: 5px;
+  
+      }
+      #encabezadodiseños .logo2 a img{
+         font-size: 20pt;
+         border-radius: 20px;
+         width:80px;
+         height: 80px;
+      }
+      #encabezadodiseños nav ul a{
+        font-size: 20pt;
+        font-family: texto;
+        width: 150px;
+        height: 50px;
+        padding: 15px;
+        color: black;
+        text-align: center;
+        background-color: chocolate;
+        border-radius: 20px;
+        font-size: 10pt;
+          float: left;
+      }
+      #encabezadodiseños #contenedortexto{
+          width: 50%;
+          height: 400px;
+          color: white;
+      align-content: center;
+      background-color: gray;
+      float: right;
+  
+      }
+      .nuestrosdiseños1{
+  height: auto;
+   overflow: hidden;
+   width: 100%;
+   box-sizing: border-box;
+  
+      }
+     
+   .HISTORIA{
+      width: 30%;
+      height: 300px;
+      background-color: rgb(30,31,29);
+      color: black;
+    float: left;
+  
+      
+   }
+   
+   .HISTORIA .logo1 a img{
+      font-size: 30px;
+          float: left;
+          border-radius:30px;
+          width: 80px;
+          height: 80px;
+   }
+   .HISTORIA  h1{
+     font-family: titulo;
+     font-size: 20pt;
+     color: white;
+     padding: 100px;
+     float: left;
+  
+         
+         
+  }
+   .HISTORIATEXTO #contenedortexto p {
+      font-family: texto;
+      text-align: center;
+      color: black;
+  font-size: 15pt;
+  float: right;
+  text-align: left;
+  padding: 20px;
+  
+   }
+   .HISTORIATEXTO #contenedortexto{
+      width: 70%;
+      height: 300px;
+      background-image: url(imageneseditadas/JPEG/3.jpg);
+      color: rgb(30,31,29);
+  float: right;
+  text-align: left;
+  
+  
+  }
+   .HISTORIATEXTO a{
+     font-size: 20pt;
+     font-family: texto;
+     width: 50px;
+     height: 50px;
+     padding: 15px;
+     color: black;
+     text-align: center;
+     background-color: chocolate;
+     border-radius: 20px;
+     font-size: 10pt;
+   }
+   .QUEHACEMOS{
+      width: 100%;
+      text-align: center;
+      background-color: white;
+      font-size: 60pt;
+      float: left;
+      height: 800px;
+     align-content: center;
+     
+  
+      
+   }
+   .QUEHACEMOSlogo{
+      width: 50%;
+      height: 350px;
+      background-color: rgb(44, 47, 123);
+      float: left;
+   }
+   .QUEHACEMOSlogo .logo1 a img{
+      font-size: 30px;
+          float: left;
+          border-radius:30px;
+          width: 80px;
+          height: 80px;
+          border: solid 2px black;
+   }
+   .QUEHACEMOSlogo .logo1 #herramienta{
+      padding: 120px;
+      font-size: 50pt;
+      color: white;
+   }
+   
+   .QUEHACEMOS #encabezadoquehacemos h2{
+      width: 50%;
+      height: 350px;
+      color: rgb(30,31,29);
+      background-image: url(imageneseditadas/JPEG/1.jpg);
+  align-content: center;
+  font-family: titulo;
+  font-size: 15pt;
+  float: right;
+  padding: 100px;
+  
+  
+  }
+     .QUEHACEMOS #textoquehacemos p {
+      text-align: center;
+      font-family: texto;
+      font-size: 20pt;
+      width: 100%;
+      background-color:rgb(30,31,29);
+      height: 200px;
+      float: left;
+      color: white;
+  
+   }
+   .QUEHACEMOS #textoquehacemos  a{
+     font-size: 20pt;
+     font-family: texto;
+     width: 100px;
+     height: 80px;
+     padding: 15px;
+     color: black;
+     text-align: center;
+     background-color: chocolate;
+     border-radius: 20px;
+     font-size: 10pt;
+  }
+   .PORQUE{
+      width: 100%;
+      text-align: center;
+      background-color: white;
+      color: white;
+      font-size: 5pt;
+      float: left;
+      height: 600px;
+     
+  
+      
+   }
+   .PORQUElogo{
+      width: 60%;
+      height: 450px;
+      float: left;
+      background-image: url(imageneseditadas/JPEG/4.jpg);
+  
+  
+   }
+   .PORQUE #encabezadoporque h3 {
+      font-family: titulo;
+      font-size: 30pt;
+      padding: 20px;
+      height: 550px;
+      width: 40%;
+      background-color: rgb(44, 47, 123);
+      float: right;
+      color: white;
+      padding: 100px;
+   }
+   .PORQUE #encabezadoporque h3 i{
+      color: white;
+      float: left;
+      
+      font-size: 40pt;
+      align-content: center;
+      padding: 50px;
+  
+   }
+   .PORQUE .logo1 a img{
+      font-size: 30px;
+          float: left;
+          border-radius:30px;
+          width: 80px;
+          height: 80px;
+   }
+   .PORQUE .logo1 i{
+      color: white;
+      padding: 10px;
+      font-size: 10pt;
+      text-align: center;
+   }
+   .PORQUE #PORQUETEXTO{
+      width: 60%;
+      height: 100px;
+      color: white;
+  align-content: center;
+  background-color: rgb(30,31,29);
+  float: left;
+  
+  font-size: 10pt;
+  
+  
+  }
+  
+   .PORQUE #PORQUETEXTO a{
+      width: 50px;
+      height: 50px;
+      padding: 15px;
+      color: black;
+      text-align: center;
+      background-color: chocolate;
+      border-radius: 20px;
+      font-size: 10pt;
+   }
+   .SOBREMI{
+      float: left;
+  text-align: center;
+  height: 600px;
+  padding: 20px;
+  background-image: url(imageneseditadas/JPEG/5.jpg);
+  
+   }
+   .avatar{
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      padding: 10px;
+      align-content: center;
+   }
+   .usuario{
+      font-size: 20pt;
+      margin-top: 15px;
+      font-family: titulo;
+      color: navy;
+   }
+   .social{
+      list-style: none;
+      text-align: center;
+      padding: 0;
+  
+   }
+   .social li{
+      display: inline-block;
+      margin: 5px;
+   }
+   .texto{
+      display: inline-block;
+      text-align: center;
+      font-size: 20pt;
+   }
+   .texto h3{
+      font-family: titulo;
+      font-size: 10pt;
+   }
+   .texto p{
+      font-family: texto;
+   }
+   .SOBREMI .texto a{
+      font-size: 10pt;
+      font-family: texto;
+      width: 50px;
+      height: 50px;
+      padding: 15px;
+      color: black;
+      text-align: center;
+      background-color: chocolate;
+      border-radius: 20px;
+      font-size: 10pt;
+   }
+   #barrasdeprogreso{
+     width: 100%;
+     height: 600px;
+     font-family: texto;
+     font-size: 20pt;
+     background-color: white;
+     float: left;
+     text-align: center;
+     padding: 20px;
+   }
+   .final{
+      float: left;
+      background-color: black;
+      width: 100%;
+      height: 300px;
+      color: white;
+      padding: 20px;
+      font-size: 20pt;
+      text-align: center;
+   }
+ }
+ @media(min-width:200px) and (max-width:767px){
+   .contenedor{
+      width: 100%;
+      height: auto;
+      position: absolute;
+      background: rgb(22, 155, 216);
+     
+     
+  }
+  
+  .contenedor header{
+      max-width: 100%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+  }
+  .contenedor header .logo a img {
+      font-size: 20px;
+      border-radius: 20px;
+      width: 80px;
+      height: 80px;
+      
+      
+  }
+  
+  #cuerpo{
+      width: 100%;
+      height: 300px;
+      background: white;
+  float: left;
+      box-sizing: content-box;
+      }
+      
+      .MANUAL{
+          width: 100%;
+          height: 500px;
+          float:left;
+          font-size: 10pt;
+          text-align: center;
+          background-image:url(imageneseditadas/JPEG/2.jpg);
+  
+  
+          
+      }
+  
+      
+      .MANUAL h4{
+          font-family: titulo;
+          font-size: 10pt;
+          width: 60%;
+          float: left;
+         color: black;
+          height: auto;
+          align-content: center;
+  
+  
+      }
+      .MANUAL #textomanual h1{
+          font-family: titulo;
+          color: black;
+          font-size: 15pt;
+          text-align: center;
+  
+          
+      }
+      
+      .MANUAL nav ul  button{
+          text-align: none;
+          color: black;
+          margin: 0 15px;
+          padding: 20px;
+          background-color: chocolate;   
+          float: left; 
+          border: solid black;
+          border-radius: 20px;
+          font-size: 20pt;
+      }
+      .MANUAL nav ul li button:hover{
+          color: white;
+          background-color:black;
+          border: solid blue;
+  
+      }
+      .enlace1{
+          background-color: gray;
+          color: white;
+          font-size: 10pt;
+          text-align: center;
+          float: none;
+          padding: 20px;
+          border-radius: 30px;
+          font-family: titulo;
+          
+      
+      
+      }
+      #encabezadodiseños{
+          width: 100%;
+          height: 300px;
+          float: left;
+          color: white;
+          align-content: center;
+          background-color: gray;
+      }
+      #encabezadodiseños h1{
+          font-size: 15pt;
+          float: right;
+          align-items: center;
+          padding: 20px;
+          font-family: titulo;
+          background-color: rgb(30,31,29);
+          width: 120%;
+          height: 300px;
+  
+      }
+      #encabezadodiseños i{
+          float: right;
+          padding: 5px;
+  
+      }
+      #encabezadodiseños .logo2 a img{
+         font-size: 20pt;
+         border-radius: 20px;
+         width:80px;
+         height: 80px;
+      }
+      #encabezadodiseños nav ul a{
+        font-size: 20pt;
+        font-family: texto;
+        width: 150px;
+        height: 50px;
+        padding: 15px;
+        color: black;
+        text-align: center;
+        background-color: chocolate;
+        border-radius: 20px;
+        font-size: 10pt;
+          float: left;
+      }
+      #encabezadodiseños #contenedortexto{
+          width: 50%;
+          height: 400px;
+          color: white;
+      align-content: center;
+      background-color: gray;
+      float: right;
+  
+      }
+      .nuestrosdiseños1{
+  height: auto;
+   overflow: hidden;
+   width: 100%;
+   box-sizing: border-box;
+  
+      }
+     
+   .HISTORIA{
+      width: 30%;
+      height: 300px;
+      background-color: rgb(30,31,29);
+      color: black;
+    float: left;
+  
+      
+   }
+   
+   .HISTORIA .logo1 a img{
+      font-size: 30px;
+          float: left;
+          border-radius:30px;
+          width: 80px;
+          height: 80px;
+   }
+   .HISTORIA  h1{
+     font-family: titulo;
+     font-size: 20pt;
+     color: white;
+     padding: 20px;
+     float: left;
+  
+         
+         
+  }
+   .HISTORIATEXTO #contenedortexto p {
+      font-family: texto;
+      text-align: center;
+      color: black;
+  font-size: 12pt;
+  float: right;
+  text-align: left;
+  padding: 20px;
+  
+   }
+   .HISTORIATEXTO #contenedortexto{
+      width: 70%;
+      height: 300px;
+      background-image: url(imageneseditadas/JPEG/3.jpg);
+      color: rgb(30,31,29);
+  float: right;
+  text-align: left;
+  
+  
+  }
+   .HISTORIATEXTO a{
+     font-size: 20pt;
+     font-family: texto;
+     width: 50px;
+     height: 50px;
+     padding: 15px;
+     color: black;
+     text-align: center;
+     background-color: chocolate;
+     border-radius: 20px;
+     font-size: 10pt;
+   }
+   .QUEHACEMOS{
+      width: 100%;
+      text-align: center;
+      background-color: white;
+      font-size: 60pt;
+      float: left;
+      height: 800px;
+     align-content: center;
+     
+  
+      
+   }
+   .QUEHACEMOSlogo{
+      width: 50%;
+      height: 350px;
+      background-color: rgb(44, 47, 123);
+      float: left;
+   }
+   .QUEHACEMOSlogo .logo1 a img{
+      font-size: 30px;
+          float: left;
+          border-radius:30px;
+          width: 80px;
+          height: 80px;
+          border: solid 2px black;
+   }
+   .QUEHACEMOSlogo .logo1 #herramienta{
+      padding: 120px;
+      font-size: 50pt;
+      color: white;
+   }
+   
+   .QUEHACEMOS #encabezadoquehacemos h2{
+      width: 50%;
+      height: 350px;
+      color: rgb(30,31,29);
+      background-image: url(imageneseditadas/JPEG/1.jpg);
+  align-content: center;
+  font-family: titulo;
+  font-size: 15pt;
+  float: right;
+  padding: 100px;
+  
+  
+  }
+     .QUEHACEMOS #textoquehacemos p {
+      text-align: center;
+      font-family: texto;
+      font-size: 11pt;
+      width: 100%;
+      background-color:rgb(30,31,29);
+      height: 150px;
+      float: left;
+      color: white;
+  
+   }
+   .QUEHACEMOS #textoquehacemos  a{
+     font-size: 20pt;
+     font-family: texto;
+     width: 100px;
+     height: 80px;
+    
+     color: black;
+     text-align: center;
+     background-color: chocolate;
+     border-radius: 20px;
+  }
+   .PORQUE{
+      width: 100%;
+      text-align: center;
+      background-color: white;
+      color: white;
+      font-size: 5pt;
+      float: left;
+      height: 800px;
+     
+  
+      
+   }
+   .PORQUElogo{
+      width: 60%;
+      height: 450px;
+      float: left;
+      background-image: url(imageneseditadas/JPEG/4.jpg);
+  
+  
+   }
+   .PORQUE #encabezadoporque h3 {
+      font-family: titulo;
+      font-size: 30pt;
+      padding: 60px;
+      height: 800px;
+      width: 40%;
+      background-color: rgb(44, 47, 123);
+      float: right;
+      color: white;
+   }
+   .PORQUE #encabezadoporque h3 i{
+      color: white;
+      float: left;
+      
+      font-size: 40pt;
+      align-content: center;
+      padding: 50px;
+  
+   }
+   .PORQUE .logo1 a img{
+      font-size: 30px;
+          float: left;
+          border-radius:30px;
+          width: 80px;
+          height: 80px;
+   }
+   .PORQUE .logo1 i{
+      color: white;
+      padding: 10px;
+      font-size: 10pt;
+      text-align: center;
+   }
+   .PORQUE #PORQUETEXTO{
+      width: 60%;
+      height: 400px;
+      color: white;
+  align-content: center;
+  background-color: rgb(30,31,29);
+  float: left;
+  
+  font-size: 15pt;
+  
+  
+  }
+  
+   .PORQUE #PORQUETEXTO a{
+      width: 50px;
+      height: 50px;
+      padding: 15px;
+      color: black;
+      text-align: center;
+      background-color: chocolate;
+      border-radius: 20px;
+      font-size: 10pt;
+   }
+   .SOBREMI{
+      float: left;
+  text-align: center;
+  height: 600px;
+  padding: 20px;
+  background-image: url(imageneseditadas/JPEG/5.jpg);
+  
+   }
+   .avatar{
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      padding: 10px;
+      align-content: center;
+   }
+   .usuario{
+      font-size: 20pt;
+      margin-top: 15px;
+      font-family: titulo;
+      color: navy;
+   }
+   .social{
+      list-style: none;
+      text-align: center;
+      padding: 0;
+  
+   }
+   .social li{
+      display: inline-block;
+      margin: 5px;
+   }
+   .texto{
+      display: inline-block;
+      text-align: center;
+      font-size: 15pt;
+   }
+   .texto h3{
+      font-family: titulo;
+      font-size: 10pt;
+   }
+   .texto p{
+      font-family: texto;
+   }
+   .SOBREMI .texto a{
+      font-size: 10pt;
+      font-family: texto;
+      width: 50px;
+      height: 50px;
+      padding: 15px;
+      color: black;
+      text-align: center;
+      background-color: chocolate;
+      border-radius: 20px;
+      font-size: 10pt;
+   }
+   #barrasdeprogreso{
+     width: 100%;
+     height: 600px;
+     font-family: texto;
+     font-size: 20pt;
+     background-color: white;
+     float: left;
+     text-align: center;
+     padding: 20px;
+   }
+   .final{
+      float: left;
+      background-color: black;
+      width: 100%;
+      height: 300px;
+      color: white;
+      padding: 20px;
+      font-size: 20pt;
+      text-align: center;
+   }
+
+ }
